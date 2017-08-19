@@ -1,0 +1,1 @@
+This is a awarded competition(total reward $25,000)on kaggle.It is a regression problem,with a dataset representing different permutations of Mercedes-Benz car features to predict the time it takes to pass testing.I ended up ranking 11% of this competition,used XGboosting,emsemble and stacking algorithems.
