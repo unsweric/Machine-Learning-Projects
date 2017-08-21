@@ -1,6 +1,6 @@
 This is a awarded competition(total reward $25,000)on kaggle.It is a regression problem,with a dataset representing different permutations of Mercedes-Benz car features to predict the time it takes to pass testing.I ended up ranking 11% of this competition,used XGboosting,emsemble and stacking algorithems.  
   
-There are 12 notebooks in this file:
+There are 12 notebooks in this file:  
 (1)Trial_1:This version is the benchmark model,uses basic feature engineering, labelEncoder for categorical feature,and model selecting pipeline to select the best model from Ridge,SVR(kernel='linear'),SVR(kernel='rbf'),AdaBoostRegressor ,RandomForestRegressor,Lasso and ElasticNet.The model Ridge wins and it then has been carefully tuned by using gridsearch.Scored 0.53514 on kaggle lead board.
 
 (2)Trial_2:This version uses basic feature engineering, One-hot encode for categorical feature,and model selecting pipeline to select the best model from Ridge,SVR(kernel='linear'),SVR(kernel='rbf'),AdaBoostRegressor ,RandomForestRegressor,Lasso and ElasticNet.The model Ridge wins and it then has been carefully tuned by using gridsearch.Scored 0.54295 on kaggle lead board.
