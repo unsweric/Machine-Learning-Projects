@@ -28,10 +28,10 @@ Step 8:This step I mimics a real-world scenario where new adjclose would be avai
 an investment plot will be plotted to check the ultimate useness of this model,The investment strategy goes like this: if the predicted AdjClose price is higher than today's then buy this stock at the open price of the next day and sell it at the close price. Otherwise short it. So if the prediction is accuate, this strategy will make profit, otherwise we lose money. 
 PS: as this note book is over 25 mb which is the limit of uplaoding size for github,I delete to graphs the results in it,please refer to excel file"Result of Tuning" for tuning results.
 
-Step 8.1:Adagrad Optimization Algorithm with different updata epochs,1 epochs wins. 
-Step 8.2:Adam Optimization Algorithm with different updata epochs,1 epochs wins.
-Step 8.3:Sgd Optimization Algorithm with different updata epochs,2 epochs wins.
-Step 8.4:Adamax Optimization Algorithm with different updata epochs,they all perform pretty bad,Adamax is out of picture.
+Step 8.1:Adagrad Optimization Algorithm with different updata epochs,1 epochs wins.   
+Step 8.2:Adam Optimization Algorithm with different updata epochs,1 epochs wins.  
+Step 8.3:Sgd Optimization Algorithm with different updata epochs,2 epochs wins.  
+Step 8.4:Adamax Optimization Algorithm with different updata epochs,they all perform pretty bad,Adamax is out of picture.  
 
 
 Final Model:Based on the all tuning resluts,this is the final model I choose,which will be used to build the wedsite and to forcast fuuture adjclose price of S&P500.
