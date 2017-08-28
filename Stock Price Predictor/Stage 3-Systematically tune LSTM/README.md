@@ -34,5 +34,5 @@ Step 8.3:Sgd Optimization Algorithm with different updata epochs,2 epochs wins.
 Step 8.4:Adamax Optimization Algorithm with different updata epochs,they all perform pretty bad,Adamax is out of picture.  
 
 
-Final Model:Based on the all tuning resluts,this is the final model I choose,which will be used to build the wedsite and to forcast fuuture adjclose price of S&P500. 
+Final Model:Based on the all tuning resluts,this is the final model I choose,which will be used to build the wedsite(https://hello-app-unsweric.c9users.io/StockIndexPredictor) and to forcast fuuture adjclose price of S&P500. 
 Again,as this note book is over 25 mb which is the limit of uplaoding size for github,I delete to graphs the results in it,please refer to excel file"Result of Tuning" for tuning results.
