@@ -7,4 +7,6 @@ This repository contains all my machine learning projects,namely:
 
 (3)Octave Projects:this file contains all the projects I have done through learning Dr Andrew Ng's Machine learning course on Coursea:https://www.coursera.org/learn/machine-learning.    
 
-(4)Udacity Projects: this file contains all the projects I have done through learning the Machine Learning Engineer Nanodegree on Udacity:https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009.    
+(4)Udacity Projects: this file contains all the projects I have done through learning the Machine Learning Engineer Nanodegree on Udacity:https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009.     
+
+Machine Learning Cheat Sheet: this sheet contains all the basic but important machine learning theroies and implementaion tips.
