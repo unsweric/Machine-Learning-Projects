@@ -23,12 +23,12 @@ There 6 steps in stage:
          (2),Systematically train 7 models,namely,GradientBoostingClassifier,RandomForestClassifier,KNeighborsClassifier,SVC,AdaBoostClassifier,QuadraticDiscriminantAnalysis and  SGDClassifier.  
          (3)Train the stacking model.Turns out that GradientBoostingClassifier outperfomes all other model includ stacking model.
          
-(4)Step_4: change the customized Time Series GridSearch Function by using test dataset as validation set,and follow retrain all the model.
+(4)Step_4: change the customized Time Series GridSearch Function by using test dataset as validation set(has risk of overfitting),and follow retrain all the model.
 GradientBoostingClassifier outperfomes all other model and the best accuracy of 30 days prediction reach 55%.
 
 (5)Step_5: Systematically train XGboositng Classifier by using  customized Time Series GridSearch Function.  
 
-(6)Step_6: Systematically train XGboositng Classifier by using  customized Time Series GridSearch Function with test dataset as validation set. the best accuracy of 30 days prediction is 54.8%.
+(6)Step_6: Systematically train XGboositng Classifier by using  customized Time Series GridSearch Function with test dataset as validation set(has risk of overfitting). the best accuracy of 30 days prediction is 54.8%.
 
 Customized Feature Selection funtion:this function can be used to tune the parameters of DaysReturns,DaysReturnMovAvg and DaysLags.This funtion has not bees used at this stage as all the model does not perform very well,probably goona to be used for LSTM.
 
